@@ -10,7 +10,6 @@ html,
 body {
     font-family: "oswald", sans-serif;
     font-size: 62.5%;
-    background-image: url('cartoon8.png');
 }
 
 body {
@@ -57,8 +56,12 @@ body {
 }
 
                    /* For Card */
+#profileContainer {
+    width: 100%;
+}
 
 .profile-box {
+    margin: auto;
     padding: 4rem 2rem;
     width: 100%;
     max-width: 78rem;
